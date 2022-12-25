@@ -1,7 +1,11 @@
 /* styles go here */
 label {
   display: block;
-  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-bottom: 0;
 }
 
 fieldset {
@@ -10,4 +14,8 @@ fieldset {
 
 .form {
   margin: 10px 0;
+}
+
+.form_last {
+  margin-bottom: 0;
 }

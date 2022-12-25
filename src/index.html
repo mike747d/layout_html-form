@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <h1>HTML Form</h1>
+    
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
@@ -33,7 +33,7 @@
         </label>
 
         <label>
-          How old are You:
+          How old are You?
           <input 
           type="number" name="age" 
           value="12" 
@@ -46,8 +46,8 @@
           <input type="date">
         </label>
 
-        <label>
-          I accept the term of the agreement:
+        <label class="last">
+          I accept the term of the agreement
           <input type="checkbox">
         </label>
 
@@ -65,7 +65,7 @@
           >
         </label>
 
-        <label>
+        <label class="last">
           Password:
           <input type="password">
         </label>
@@ -76,17 +76,14 @@
         
         <legend>An interesting fact about you!</legend>
 
-            Do you love cats?
-
         <label>
+          Do you love cats?
           <input 
           type="radio" name="yes" 
           value="yes"
           >
             Yes
-        </label>
-
-        <label>
+          
           <input 
           type="radio" name="no" 
           value="no"
@@ -114,7 +111,7 @@
           </select>
         </div>
 
-        <div class="form">
+        <div class="form_last">
             How do you rate our work?
           <input type="range" value="0"
           min="1" max="10"
@@ -132,7 +129,7 @@
           <textarea name="comments"> </textarea>
         </label>
 
-        <label>
+        <label class="last">
           Would you recommend us?
           <select>
             <option value="yes" selected>yes</option>
